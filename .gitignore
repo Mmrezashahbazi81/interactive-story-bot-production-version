@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# SQLite
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Environment
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+
+# Build
+dist/
+build/

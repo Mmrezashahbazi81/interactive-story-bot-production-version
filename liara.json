@@ -1,0 +1,14 @@
+{
+  "platform": "docker",
+  "port": 8000,
+  "disks": [
+    {
+      "name": "data",
+      "mountTo": "/app/app/data"
+    }
+  ],
+  "healthCheck": {
+    "path": "/health",
+    "timeout": 10
+  }
+}

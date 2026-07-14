@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# VSCode
+.vscode/
+
+# Tests Cache
+.pytest_cache/
+.coverage
+
+# Logs
+logs/
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Docker
+docker-compose.override.yml
+
+# Python cache
+.mypy_cache/
+.ruff_cache/
+
+# SQLite (اگر دیتابیس داخل Volume است)
+app/data/
+
+# Environment
+.env
