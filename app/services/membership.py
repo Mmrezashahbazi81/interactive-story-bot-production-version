@@ -221,6 +221,9 @@ async def check_user_membership(
             },
         )
 
+        logger.warning(
+            f"RETURN all_ok={all_ok}, results={results}"
+        )
         return all_ok, results
 
     finally:

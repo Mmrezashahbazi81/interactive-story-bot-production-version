@@ -110,6 +110,10 @@ async def ensure_user_can_play(
         )
 
     membership_ok, _ = await check_user_membership(user_id)
+    
+    logger.warning(
+    f"membership_ok={membership_ok}, results={_}"
+)
 
     if not membership_ok:
 
